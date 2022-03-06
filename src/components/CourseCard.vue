@@ -50,9 +50,9 @@ export default {
   @apply mx-4 my-2;
 }
 .p-bg {
-  @apply bg-red-400;
+  @apply bg-blue-400;
 }
 .p-text {
-  @apply text-red-500;
+  @apply text-blue-500;
 }
 </style>

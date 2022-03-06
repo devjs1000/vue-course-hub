@@ -21,8 +21,8 @@ import certificate from "@/assets/certificates.svg";
         <span class="p-text"> Our Professional Certificate </span>
       </h2>
       <h3 class="my-5">
-        Validate your cloud expertise with an industry-recognized credential
-        today. Get an industry-leading credential and validate your AWS Cloud
+        Validate your cloud expertise with an industry-recognized cblueential
+        today. Get an industry-leading cblueential and validate your AWS Cloud
         skills. Validate Your Cloud Skill. Advance Your Career. Online AWS
         Certification
       </h3>

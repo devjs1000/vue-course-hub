@@ -66,7 +66,7 @@ export default {};
               px-4
               block
               mt-6
-              bg-red-500
+              bg-blue-500
               text-white
               font-bold
               w-full

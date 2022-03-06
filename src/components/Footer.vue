@@ -8,7 +8,7 @@
           target="_blank"
           class="flex items-center mb-4 sm:mb-0"
         >
-          <h1 class="text-2xl text-gray-800 font-bold">Xcite<span class="text-red-500 font">Edu</span></h1>
+          <h1 class="text-2xl text-gray-800 font-bold">Xcite<span class="text-blue-500 font">Edu</span></h1>
           
         </a>
         <ul class="flex flex-wrap items-center mb-6 sm:mb-0">

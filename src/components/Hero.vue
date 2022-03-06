@@ -34,10 +34,10 @@ export default {};
   @apply grid place-items-center;
 }
 .p-btn-o {
-    @apply border border-[2px] border-red-400 px-4  py-2 mx-2 rounded-[.5rem] text-red-500;
+    @apply border border-[2px] border-blue-500 px-4  py-2 mx-2 rounded-[.5rem] text-blue-500;
 }
 .p-btn-s {
-    @apply bg-red-400 px-4  py-2 mx-2 rounded-[.5rem]  text-slate-50;
+    @apply bg-blue-500 px-4  py-2 mx-2 rounded-[.5rem]  text-slate-50;
 }
 .p-ill{
     @apply w-[20rem] h-[20rem] object-contain;

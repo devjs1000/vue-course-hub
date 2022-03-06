@@ -48,7 +48,7 @@ p{
 }
 
 .icon{
-    @apply text-pink-600
+    @apply text-blue-600
               p-3
               text-center
               inline-flex
@@ -59,7 +59,7 @@ p{
               mb-6
               shadow-lg
               rounded-full
-              bg-pink-300
+              bg-blue-300
               mt-8;
 }
 

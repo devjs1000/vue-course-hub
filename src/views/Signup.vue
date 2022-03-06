@@ -65,6 +65,6 @@ export default {};
               hover:underline
               mt-2
               inline-block
-              hover:text-red-600;
+              hover:text-blue-600;
 }
 </style>

@@ -4,6 +4,7 @@ import NotFound from './views/NotFound.vue'
 import Profile from './views/Profile.vue'
 import Login from './views/Login.vue'
 import Signup from './views/Signup.vue'
+import Courses from './views/Courses.vue'
 import ProfileDashboard from './components/ProfileDashboard.vue'
 /* @type {import('vue-router').RouterOptions['routes']} */
 export const routes = [
@@ -36,6 +37,11 @@ export const routes = [
     path: '/signup',
     meta: { title: 'signup' },
     component: Signup,
+  },
+  {
+    path: '/courses',
+    meta: { title: 'all courses' },
+    component: Courses,
   }
   
 ]
