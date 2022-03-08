@@ -13,10 +13,7 @@
               name="name"
               id="name"
               placeholder="username"
-              class="
-                            p-input
-
-              "
+              class="p-input"
             />
           </div>
 
@@ -29,26 +26,12 @@
               name="email"
               id="email"
               placeholder="@email"
-              class="
-                             p-input
-
-              "
+              class="p-input"
             />
 
-            <a
-              href="#"
-              class="
-p-link
-              "
-              >Forget Password</a
-            >
+            <a href="#" class="p-link">Forget Password</a>
           </div>
-          <button
-            class="
-              auth-btn
-            "
-            >Login</button
-          >
+          <button class="auth-btn">Login</button>
         </form>
       </div>
     </div>
@@ -60,7 +43,7 @@ export default {};
 </script>
 
 <style>
-.auth-btn{
+.auth-btn {
   @apply cursor-pointer
               py-2
               px-4

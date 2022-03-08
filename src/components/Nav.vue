@@ -1,5 +1,6 @@
 <script setup>
 import Search from './Search.vue'
+import Modal from './Modal.vue'
 </script>
 
 <template>
@@ -17,6 +18,7 @@ import Search from './Search.vue'
           </div>
         </div>
         <div class="flex space-x-4 items-center">
+          <modal title="Modal" openText="open modal" @open="modalOpen">hey</modal>
           <search label="search"/>
           <router-link to="/login" class="text-gray-800 text-sm p-btn-o">LOGIN</router-link>
           <router-link to="/signup" class="bg-blue-500 px-4 py-2 rounded text-white hover:bg-blue-700 text-sm">SIGNUP</router-link>
@@ -28,7 +30,14 @@ import Search from './Search.vue'
 </template>
 
 <script>
-export default {};
+export default {
+
+  methods:{
+    modalOpen(){
+      console.log('modal is open');
+    }
+  }
+};
 </script>
 
 <style>
